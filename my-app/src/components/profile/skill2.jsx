@@ -1,8 +1,8 @@
 import React from "react";
 
-const Skills = (props)=>(
+const Skill2 = (props)=>(
     <div className="skills">
-        <h3>My Skills</h3>
+        <h3>My Skill Two</h3>
         <ul>
             <li>{props.skillA}</li>
             <li>{props.skillB}</li>
@@ -10,4 +10,4 @@ const Skills = (props)=>(
         </ul>
     </div>
 );
-export default Skills;
+export default Skill2;
